@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body{
+    font-family: 'roboto', 'helvetica', sans-serif;
+}
+
+h1{
+    font-size: 6
+    5px;
+    margin-bottom: 13%;
+}
+
+.container{
+    width: 85%;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.drum{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 120px;
+    border: 7px solid #666;
+    border-radius: 15px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #111;
+    position: relative;
+    cursor: pointer;
+}
+
+.drum p{
+    font-size: 65px;
+    color: #fff;
+    position: absolute;
+    bottom: -150%;
+    color: #111;
+}
+
+.tom1{
+    background-image: url('./images/tom1.png');
+}
+.tom2{
+    background-image: url('./images/tom2.png');
+}
+.tom3{
+    background-image: url('./images/tom3.png');
+}
+.tom4{
+    background-image: url('./images/tom4.png');
+}
+.kick{
+    background-image: url('./images/kick.png');
+}
+.snare{
+    background-image: url('./images/snare.png');
+}
+.crash{
+    background-image: url('./images/crash.png');
+}
+
+.highlight{
+    width: 130px;
+    height: 130px;
+}
